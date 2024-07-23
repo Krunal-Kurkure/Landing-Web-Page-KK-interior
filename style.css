@@ -1,0 +1,823 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+/* ---------------------------------------CODE OF "Be Vietnam Pro" FONT ---------------------------------------------- */
+.be-vietnam-pro-thin {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.be-vietnam-pro-extralight {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.be-vietnam-pro-light {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.be-vietnam-pro-regular {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.be-vietnam-pro-medium {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.be-vietnam-pro-semibold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.be-vietnam-pro-bold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.be-vietnam-pro-extrabold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.be-vietnam-pro-black {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.be-vietnam-pro-thin-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.be-vietnam-pro-extralight-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.be-vietnam-pro-light-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.be-vietnam-pro-regular-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.be-vietnam-pro-medium-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.be-vietnam-pro-semibold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.be-vietnam-pro-bold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.be-vietnam-pro-extrabold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.be-vietnam-pro-black-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ---------------------------------------------------CODE OF HOME PAGE ---------------------------------------------- */
+.home {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(images/mainbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  position: relative;
+  top: 25px;
+  margin: 0px 65px 0px 65px;
+  width: 90%;
+  height: 52px;
+  border-radius: 60px;
+  background-color: #cac9c9;
+}
+.navbar ul img {
+  position: relative;
+  top: 22%;
+  margin-left: 14px;
+  width: 100px;
+  height: 25px;
+}
+.navbar ul {
+  position: relative;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  top: 8%;
+  column-gap: 30px;
+  list-style: none;
+}
+.navbar ul li {
+  margin-right: -20%;
+  margin-left: -15%;
+  position: relative;
+  height: 0%;
+  top: 28%;
+}
+.navbar ul a {
+  font-family: sans-serif;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000427;
+  padding: 4px 8px 4px 8px;
+  transition: 0.1s;
+}
+.navbar ul a:hover {
+  border: 2px solid #000427;
+  border-radius: 20px;
+}
+#contatc {
+  border: 0;
+  padding-top: 0%;
+}
+#contact {
+  position: relative;
+  color: #cac9c9;
+  background-color: #000427;
+  position: relative;
+  top: 5%;
+  border: none;
+  border-radius: 30px;
+  margin-right: 0.8%;
+  font-family: sans-serif;
+  width: 150px;
+  height: 40px;
+  transition: 0.3s;
+}
+#contact:hover {
+  background-color: #cac9c9;
+  border: 2px solid #000427;
+  color: #000427;
+}
+.home h1 {
+  font-family: sans-serif;
+  position: relative;
+  margin-top: 8%;
+  font-size: 60px;
+  text-align: center;
+  color: #cac9c9;
+}
+.home p {
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+  margin-top: 2%;
+  color: #cac9c9;
+}
+#exploreproj {
+  position: relative;
+  margin-top: 2%;
+  width: 220px;
+  border: 1px solid white;
+  background-color: #000427;
+  color: #cac9c9;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  padding-bottom: 42px;
+  left: 41%;
+  transition: 0.3s;
+}
+#exploreproj:hover {
+  background-color: transparent;
+  border: 2px solid #cac9c9;
+}
+#btnlogo {
+  width: 26px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+
+/* ---------------------------------------------------CODE OF CATEGORIES PAGE ---------------------------------------- */
+.categories {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+.heading {
+  display: flex;
+  height: 25vh;
+  justify-content: space-around;
+  gap: 15%;
+}
+.heading #head1 h5 {
+  position: relative;
+  top: 30%;
+  color: #000f99;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.heading #head1 h1 {
+  position: relative;
+  top: 45%;
+  color: #000851;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.heading #head2 p {
+  position: relative;
+  top: 30%;
+  font-size: 14px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.catmain {
+  width: auto;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.catmain div img {
+  width: 36vh;
+  height: 45vh;
+}
+.catmain div p {
+  position: relative;
+  top: 2%;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000851;
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+}
+.catinfo {
+  width: auto;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+}
+.catinfo h1 {
+  position: relative;
+  top: 20%;
+  font-size: 30px;
+  color: #000f99;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.catinfo h4 {
+  position: relative;
+  top: 20%;
+  color: #000851;
+  font-family: sans-serif;
+}
+.catinfo p {
+  position: relative;
+  color: #4d4d4d;
+  top: 25%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/* ---------------------------------------------------CODE OF ABOUT PAGE ---------------------------------------- */
+.about {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #e2e2e2;
+}
+.about #about1 {
+  width: 40vw;
+}
+.about #about1 img {
+  position: relative;
+  top: 10%;
+  border: 1.5px solid black;
+  float: right;
+  width: 80%;
+}
+.about #about2 {
+  width: 60vw;
+}
+.about #about2 h3 {
+  position: relative;
+  top: 20%;
+  left: 13%;
+  color: #000f99;
+  width: fit-content;
+  font-family: sans-serif;
+}
+.about #about2 h1 {
+  position: relative;
+  top: 25%;
+  left: 13%;
+  color: #000851;
+  width: fit-content;
+  text-align: left;
+  font-size: 45px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.about #about2 p {
+  position: relative;
+  top: 28%;
+  left: 13%;
+  color: #4d4d4d;
+  width: fit-content;
+  font-family: sans-serif;
+}
+.about #about2 #exploreproj2 {
+  position: relative;
+  top: 33%;
+  width: 220px;
+  border: none;
+  background-color: #000427;
+  color: #cac9c9;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  padding-bottom: 42px;
+  left: 13%;
+  transition: 0.3s;
+}
+.about #about2 #exploreproj2:hover {
+  background-color: transparent;
+  border: 2px solid #000427;
+  color: #000427;
+}
+.about #about2 #exploreproj2 img {
+  background-color: #000427;
+  border-radius: 5px;
+}
+
+/* ---------------------------------------------------CODE OF GALLERY PAGE ---------------------------------------- */
+
+.gallery {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+.galheading {
+  display: flex;
+  height: 25vh;
+  justify-content: space-around;
+  gap: 15%;
+}
+.galheading #galhead1 h5 {
+  position: relative;
+  top: 30%;
+  color: #000f99;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.galheading #galhead1 h1 {
+  position: relative;
+  top: 45%;
+  color: #000851;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.galheading #galhead2 p {
+  position: relative;
+  top: 30%;
+  font-size: 14px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.galphotos {
+  display: flex;
+  height: 65vh;
+  justify-content: space-evenly;
+}
+.galphotos #gal1 {
+  width: 25vw;
+  height: 65vh;
+}
+.galphotos #gal1 img {
+  width: 25vw;
+  height: 65vh;
+}
+
+.galphotos #gal2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25vw;
+  height: 65vh;
+}
+.galphotos #gal2 #gal21 {
+  width: 25vw;
+  height: 30vh;
+}
+.galphotos #gal2 #gal22 {
+  width: 25vw;
+  height: 30vh;
+}
+
+.galphotos #gal3 {
+  width: 25vw;
+  height: 65vh;
+}
+.galphotos #gal3 img {
+  width: 25vw;
+  height: 65vh;
+}
+/* ---------------------------------------------------CODE OF EXPLORE PAGE ---------------------------------------- */
+.explore {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e2e2e2;
+}
+.expheading {
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+}
+.expheading #exphead1 {
+  width: 70vw;
+}
+.expheading #exphead1 h1 {
+  position: relative;
+  top: 30%;
+  width: max-content;
+  left: 9%;
+  color: #000851;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.expheading #exphead2 {
+  width: 30vw;
+}
+.expheading #exphead2 button {
+  position: relative;
+  top: 48%;
+  left: 54%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+.expheading #exphead2 button img {
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.expheading #exphead2 button img:hover {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.272);
+}
+.expmain {
+  width: auto;
+  display: flex;
+  height: 75vh;
+  justify-content: space-evenly;
+}
+
+.expmain #expmain1 {
+  width: 40vw;
+  height: 75vh;
+}
+.expmain #expmain1 #bigimg1 {
+  width: 40vw;
+  height: 45vh;
+  transition: 0.3s;
+}
+.expmain #expmain1 #bigimg1:hover {
+  width: 41vw;
+  height: 46vh;
+}
+.expmain #expmain1 #expmainfeed1 img {
+  margin-top: 2%;
+  width: 70px;
+  border: 2px solid #000427;
+  border-radius: 50%;
+  height: 70px;
+  transition: 0.3s;
+}
+.expmain #expmain1 #expmainfeed1 img:hover {
+  width: 72px;
+
+  height: 72px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.272);
+}
+.expmain #expmainfeed1 {
+  display: flex;
+  position: relative;
+  top: 7%;
+}
+.expmain #expmain1 p {
+  position: relative;
+  top: 3%;
+  font-size: 18px;
+  word-spacing: 5px;
+  color: #787878b4;
+  font-family: sans-serif;
+}
+.expmain #expmain1 #expmainfeed1 h1 {
+  position: relative;
+  text-align: center;
+  width: max-content;
+  font-size: 20px;
+  margin-top: 6.5%;
+  margin-left: 5%;
+  color: #000851;
+  font-family: sans-serif;
+}
+
+.expmain #expmain2 {
+  width: 40vw;
+  height: 75vh;
+}
+
+.expmain #expmain2 #bigimg2 {
+  width: 40vw;
+  height: 45vh;
+  transition: 0.3s;
+}
+.expmain #expmain2 #bigimg2:hover {
+  width: 41vw;
+  height: 46vh;
+}
+.expmain #expmain2 #expmainfeed2 img {
+  margin-top: 2%;
+  width: 70px;
+  border: 2px solid #000427;
+  border-radius: 50%;
+  height: 70px;
+  transition: 0.3s;
+}
+.expmain #expmain2 #expmainfeed2 img:hover {
+  width: 72px;
+
+  height: 72px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.272);
+}
+.expmain #expmainfeed2 {
+  display: flex;
+  position: relative;
+  top: 7%;
+}
+.expmain #expmain2 p {
+  position: relative;
+  top: 3%;
+  font-size: 18px;
+  word-spacing: 5px;
+  color: #787878b4;
+  font-family: sans-serif;
+}
+.expmain #expmain2 #expmainfeed2 h1 {
+  position: relative;
+  text-align: center;
+  width: max-content;
+  font-size: 20px;
+  margin-top: 6.5%;
+  margin-left: 5%;
+  color: #000851;
+  font-family: sans-serif;
+}
+
+/* ---------------------------------------------------CODE OF CONTACT PAGE ---------------------------------------- */
+.contacts {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #070f18;
+}
+.contacts #conthead {
+  display: flex;
+  width: auto;
+  height: 35vh;
+}
+.contacts #conthead #conthead1 {
+  width: 70vw;
+  height: 30vh;
+}
+.contacts #conthead #conthead1 h5 {
+  position: relative;
+  left: 10%;
+  top: 30%;
+  font-size: 15px;
+  width: max-content;
+  color: #e2e2e2;
+  font-family: sans-serif;
+}
+.contacts #conthead #conthead1 h1 {
+  position: relative;
+  left: 10%;
+  top: 38%;
+  width: max-content;
+  font-size: 40px;
+  color: #e2e2e2;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.contacts #conthead #conthead2 {
+  width: 30vw;
+}
+#explorepro3 {
+  position: relative;
+  top: 63%;
+  width: 220px;
+  border: 1px solid white;
+  background-color: #000527;
+  color: #cac9c9;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  padding-bottom: 42px;
+  left: 30%;
+  transition: 0.3s;
+}
+#explorepro3:hover {
+  background-color: transparent;
+  border: 2px solid #cac9c9;
+}
+#btnlogo2 {
+  width: 26px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.contacts #contmain {
+  width: auto;
+  height: 55vh;
+  gap: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.contacts #contmain #contmain1 {
+  position: relative;
+  width: 20vw;
+  height: 55vh;
+  margin-left: 6%;
+}
+.contacts #contmain #contmain1 img {
+  position: relative;
+  top: 33%;
+  width: 160px;
+  height: 40px;
+}
+.contacts #contmain #contmain1 p {
+  position: relative;
+  top: 38%;
+  font-size: 13px;
+  left: 2%;
+  color: #e2e2e2b6;
+  font-family: sans-serif;
+}
+
+.contacts #contmain #contmain1 h5 {
+  position: relative;
+  top: 43%;
+  left: 2%;
+  font-family: sans-serif;
+  color: #e2e2e2b6;
+}
+
+.contacts #contmain #contmain2 {
+  width: 20vw;
+  height: 55vh;
+}
+.contacts #contmain #contmain2 h4 {
+  position: relative;
+  top: 35%;
+  left: 2%;
+  font: 600;
+  font-size: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #e2e2e2b6;
+}
+.contacts #contmain #contmain2 p {
+  position: relative;
+  top: 42%;
+  font-size: 13px;
+  left: 2%;
+  color: #e2e2e2b6;
+  font-family: sans-serif;
+}
+.contacts #contmain #contmain2 h5 {
+  position: relative;
+  top: 46%;
+  left: 2%;
+  font-family: sans-serif;
+  color: #e2e2e2b6;
+}
+
+.contacts #contmain #contmain3 {
+  width: 20vw;
+  height: 55vh;
+}
+.contacts #contmain #contmain3 h3 {
+  position: relative;
+  top: 35%;
+  left: 2%;
+  font: 600;
+  font-size: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #e2e2e2b6;
+}
+.contacts #contmain #contmain3 ul {
+  list-style: none;
+  position: relative;
+  left: 2%;
+  top: 40%;
+}
+.contacts #contmain #contmain3 ul li {
+  margin-top: 4%;
+  font-family: sans-serif;
+}
+.contacts #contmain #contmain3 ul li a {
+  text-decoration: none;
+  color: #e2e2e2b6;
+  transition: 0.5s;
+}
+.contacts #contmain #contmain3 ul li a:hover {
+  border-bottom: 2px solid #e2e2e2b6;
+}
+.contacts #contmain #contmain4 {
+  width: 20vw;
+  height: 55vh;
+  margin-right: 5%;
+}
+.contacts #contmain #contmain4 h3 {
+  position: relative;
+  top: 35%;
+  left: 2%;
+  font: 600;
+  font-size: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #e2e2e2b6;
+}
+.contacts #contmain #contmain4 p {
+  position: relative;
+  top: 42%;
+  font-size: 13px;
+  left: 2%;
+  color: #e2e2e2b6;
+  font-family: sans-serif;
+}
+.contacts #contmain #contmain4 .contmain41 {
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: space-between;
+}
+.contacts #contmain #contmain4 .contmain41 #placeholder {
+  background-color: transparent;
+  padding: 3%;
+  padding-left: 5%;
+  position: relative;
+  left: 2%;
+  width: 135px;
+  border-radius: 50px;
+  font-family: sans-serif;
+  border: 1px solid #e2e2e2b6;
+  transition: 0.3s;
+}
+.contacts #contmain #contmain4 .contmain41 #placeholder:hover {
+  background-color: #000427;
+}
+.contacts #contmain #contmain4 .contmain41 button {
+  width: 80px;
+  height: 30px;
+  background-color: #000527;
+  color: #cac9c9;
+  padding: 5%;
+  border-radius: 50px;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.contacts #contmain #contmain4 .contmain41 button:hover {
+  background-color: transparent;
+  border: 1px solid #cac9c9;
+}
